@@ -58,7 +58,7 @@ namespace CoinMachine
 
             //Calculate number of dimes
             numDimes = Convert.ToDecimal(change) / dime;
-            txtDime.Text = Convert.ToInt32(Math.Floor(numDimes)).ToString();
+            txtDime.Text = Convert.ToInt32(Math.Round(numDimes,2,MidpointRounding.AwayFromZero)).ToString();
             change = change % dime;
 
             //Calculate number of nickels
