@@ -1,0 +1,10 @@
+C:\Users\jwarpech\source\repos\SimpleCalculation\SimpleCalculation\bin\Debug\SimpleCalculation.exe.config
+C:\Users\jwarpech\source\repos\SimpleCalculation\SimpleCalculation\bin\Debug\SimpleCalculation.exe
+C:\Users\jwarpech\source\repos\SimpleCalculation\SimpleCalculation\bin\Debug\SimpleCalculation.pdb
+C:\Users\jwarpech\source\repos\SimpleCalculation\SimpleCalculation\obj\Debug\SimpleCalculation.csprojResolveAssemblyReference.cache
+C:\Users\jwarpech\source\repos\SimpleCalculation\SimpleCalculation\obj\Debug\SimpleCalculation.frmCheckout.resources
+C:\Users\jwarpech\source\repos\SimpleCalculation\SimpleCalculation\obj\Debug\SimpleCalculation.Properties.Resources.resources
+C:\Users\jwarpech\source\repos\SimpleCalculation\SimpleCalculation\obj\Debug\SimpleCalculation.csproj.GenerateResource.cache
+C:\Users\jwarpech\source\repos\SimpleCalculation\SimpleCalculation\obj\Debug\SimpleCalculation.csproj.CoreCompileInputs.cache
+C:\Users\jwarpech\source\repos\SimpleCalculation\SimpleCalculation\obj\Debug\SimpleCalculation.exe
+C:\Users\jwarpech\source\repos\SimpleCalculation\SimpleCalculation\obj\Debug\SimpleCalculation.pdb

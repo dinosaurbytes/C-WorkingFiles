@@ -1,0 +1,10 @@
+C:\Users\792783\source\repos\CoinMachine\CoinMachine\bin\Debug\CoinMachine.exe.config
+C:\Users\792783\source\repos\CoinMachine\CoinMachine\bin\Debug\CoinMachine.exe
+C:\Users\792783\source\repos\CoinMachine\CoinMachine\bin\Debug\CoinMachine.pdb
+C:\Users\792783\source\repos\CoinMachine\CoinMachine\obj\Debug\CoinMachine.csprojResolveAssemblyReference.cache
+C:\Users\792783\source\repos\CoinMachine\CoinMachine\obj\Debug\CoinMachine.Properties.Resources.resources
+C:\Users\792783\source\repos\CoinMachine\CoinMachine\obj\Debug\CoinMachine.csproj.GenerateResource.cache
+C:\Users\792783\source\repos\CoinMachine\CoinMachine\obj\Debug\CoinMachine.csproj.CoreCompileInputs.cache
+C:\Users\792783\source\repos\CoinMachine\CoinMachine\obj\Debug\CoinMachine.exe
+C:\Users\792783\source\repos\CoinMachine\CoinMachine\obj\Debug\CoinMachine.pdb
+C:\Users\792783\source\repos\CoinMachine\CoinMachine\obj\Debug\CoinMachine.CoinMachine.resources

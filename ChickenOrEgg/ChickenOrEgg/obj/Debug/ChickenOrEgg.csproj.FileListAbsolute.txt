@@ -1,0 +1,10 @@
+C:\Users\792783\source\repos\ChickenOrEgg\ChickenOrEgg\bin\Debug\ChickenOrEgg.exe.config
+C:\Users\792783\source\repos\ChickenOrEgg\ChickenOrEgg\bin\Debug\ChickenOrEgg.exe
+C:\Users\792783\source\repos\ChickenOrEgg\ChickenOrEgg\bin\Debug\ChickenOrEgg.pdb
+C:\Users\792783\source\repos\ChickenOrEgg\ChickenOrEgg\obj\Debug\ChickenOrEgg.csprojResolveAssemblyReference.cache
+C:\Users\792783\source\repos\ChickenOrEgg\ChickenOrEgg\obj\Debug\ChickenOrEgg.Form1.resources
+C:\Users\792783\source\repos\ChickenOrEgg\ChickenOrEgg\obj\Debug\ChickenOrEgg.Properties.Resources.resources
+C:\Users\792783\source\repos\ChickenOrEgg\ChickenOrEgg\obj\Debug\ChickenOrEgg.csproj.GenerateResource.cache
+C:\Users\792783\source\repos\ChickenOrEgg\ChickenOrEgg\obj\Debug\ChickenOrEgg.csproj.CoreCompileInputs.cache
+C:\Users\792783\source\repos\ChickenOrEgg\ChickenOrEgg\obj\Debug\ChickenOrEgg.exe
+C:\Users\792783\source\repos\ChickenOrEgg\ChickenOrEgg\obj\Debug\ChickenOrEgg.pdb
