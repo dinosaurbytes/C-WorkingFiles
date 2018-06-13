@@ -35,6 +35,12 @@ namespace Conversion
         {
             int feet, inches;       //inputs
             double cm;              //output
+            if (Validator.IsProvided(txtFeet, "Feet") &&
+                Validator.IsNonNegativeInteger(txtFeet, "Feet") &&
+                Validator.IsProvided(txtInches, "Inches") && 
+                Validator.IsNonNegativeInteger(txtInches,"Inches"))
+            {
+
 
             //get feet and inches
             feet = Convert.ToInt32(txtFeet.Text);
@@ -45,8 +51,9 @@ namespace Conversion
 
             //display centimeters
             txtCM.Text = cm.ToString("f2");
-        }
+            }
 
+        }
         //method that receives feet and inches and converts to cm
         private double ToMetric(int f, int i)
         {
@@ -69,16 +76,20 @@ namespace Conversion
         {
             double cm;              //input
             int feet, inches;       //outputs
+            if (Validator.IsProvided(txtCM, "cm") &&
+               Validator.IsPositiveDouble(txtCM, "Feet"))
+            {
 
-            //get centimeters
-            cm = Convert.ToDouble(txtCM.Text);
+                //get centimeters
+                cm = Convert.ToDouble(txtCM.Text);
 
-            //convert to feet and inches
-            ToImperial(cm, out feet, out inches);
+                //convert to feet and inches
+                ToImperial(cm, out feet, out inches);
 
-            //display feet and inches
-            txtFeet.Text = feet.ToString();
-            txtInches.Text = inches.ToString();
+                //display feet and inches
+                txtFeet.Text = feet.ToString();
+                txtInches.Text = inches.ToString();
+            }
         }
     }
 }
