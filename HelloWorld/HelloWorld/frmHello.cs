@@ -34,7 +34,7 @@ namespace HelloWorld
         {
             lblGreeting.Text = "Hello World";
             txtName.Text = "";
-            txtName.Focus(); // Put a cursor inside the textbox
+            txtName.Select(); // Put a cursor inside the textbox
         }
 
         //Executes as the application starts
