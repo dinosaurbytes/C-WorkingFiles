@@ -40,6 +40,17 @@ namespace DateTimeDemo
         {
             DateTime party = dtpParty.Value.Date;       //party date
             lblMessage.Text = "The party is on: " + party.ToLongDateString();
+
+            // how many dats are to the party
+            TimeSpan ts = party.Subtract(DateTime.Today);
+            int days = ts.Days;
+            if (days > 0)
+                lblTimeTillParty.Text = days + " more sleep(s) till the party";
+            else if (days == 0)
+                lblTimeTillParty.Text = "Party is TODAY!!!";
+            else
+                lblTimeTillParty.Text = "Sorry you missed the party";
+
         }
     }
 }

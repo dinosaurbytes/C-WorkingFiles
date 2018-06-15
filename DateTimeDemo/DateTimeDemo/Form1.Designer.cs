@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dtpParty = new System.Windows.Forms.DateTimePicker();
             this.lblMessage = new System.Windows.Forms.Label();
+            this.lblTimeTillParty = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtDate
@@ -80,24 +81,35 @@
             // 
             // lblMessage
             // 
-            this.lblMessage.Font = new System.Drawing.Font("Ravie", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMessage.ForeColor = System.Drawing.Color.DarkMagenta;
+            this.lblMessage.Font = new System.Drawing.Font("Matura MT Script Capitals", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMessage.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblMessage.Location = new System.Drawing.Point(244, 89);
             this.lblMessage.Name = "lblMessage";
             this.lblMessage.Size = new System.Drawing.Size(332, 26);
             this.lblMessage.TabIndex = 4;
+            // 
+            // lblTimeTillParty
+            // 
+            this.lblTimeTillParty.Font = new System.Drawing.Font("Matura MT Script Capitals", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTimeTillParty.ForeColor = System.Drawing.Color.DarkBlue;
+            this.lblTimeTillParty.Location = new System.Drawing.Point(244, 150);
+            this.lblTimeTillParty.Name = "lblTimeTillParty";
+            this.lblTimeTillParty.Size = new System.Drawing.Size(332, 26);
+            this.lblTimeTillParty.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(808, 450);
+            this.ClientSize = new System.Drawing.Size(742, 254);
+            this.Controls.Add(this.lblTimeTillParty);
             this.Controls.Add(this.lblMessage);
             this.Controls.Add(this.dtpParty);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTime);
             this.Controls.Add(this.txtDate);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -114,6 +126,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dtpParty;
         private System.Windows.Forms.Label lblMessage;
+        private System.Windows.Forms.Label lblTimeTillParty;
     }
 }
 
