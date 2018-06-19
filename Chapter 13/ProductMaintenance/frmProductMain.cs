@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace ProductMaint
 {
+    //inheriates from the form class
     public partial class frmProductMain : Form
 	{
 		public frmProductMain()

@@ -21,7 +21,7 @@ namespace Craps
 
         private void btnRoll_Click(object sender, EventArgs e)
         {
-            txtDiceOutcome.Text = diceOutcome.ToString();
+               
         }
     }
 }
