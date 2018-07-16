@@ -139,11 +139,14 @@
             // 
             this.customerIDComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.customerBindingSource, "CustomerID", true));
             this.customerIDComboBox.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.customerBindingSource, "CustomerID", true));
+            this.customerIDComboBox.DataSource = this.customerBindingSource;
+            this.customerIDComboBox.DisplayMember = "CustomerID";
             this.customerIDComboBox.FormattingEnabled = true;
             this.customerIDComboBox.Location = new System.Drawing.Point(104, 28);
             this.customerIDComboBox.Name = "customerIDComboBox";
             this.customerIDComboBox.Size = new System.Drawing.Size(121, 21);
             this.customerIDComboBox.TabIndex = 6;
+            this.customerIDComboBox.ValueMember = "CustomerID";
             this.customerIDComboBox.SelectedIndexChanged += new System.EventHandler(this.customerIDComboBox_SelectedIndexChanged);
             // 
             // customerBindingSource2
